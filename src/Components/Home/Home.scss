@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;300;400;500;600;700;900&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+ 
+ @-webkit-keyframes zoom {
+    from {
+      -webkit-transform: scale(1, 1);
+    }
+    to {
+      -webkit-transform: scale(1.5, 1.5);
+    }
+  }
+  
+  @keyframes zoom {
+    from {
+      transform: scale(1, 1);
+    }
+    to {
+      transform: scale(1.5, 1.5);
+    }
+  }
+  
+  .carousel-inner .item > img {
+    -webkit-animation: zoom 20s;
+    animation: zoom 20s;  
+  }
+
+
+#three_div{
+  display: grid;
+   grid-template-columns: 600px 300px 300px;
+   margin-top: 50px;
+   margin-left: 50px;
+   margin-bottom: 10vh;
+   padding-left: 50px;
+   padding-right: 20px;
+   text-align: left;
+   column-gap: 30px;
+   
+   button{
+     width: 15vw;
+     padding: 20px 20px 20px 20px;
+     border-radius:40px;
+     background-color:black ;
+     color: white;
+     font-weight: bolder;
+     font-size: 19px;
+     font-family:'Fira Sans', sans-serif;
+    margin-top: 0px;
+   }
+
+   .upper_pad{
+     padding-top: 50px;
+     h1{
+      font-size: 54px;
+      font-family:'Fira Sans', sans-serif;
+      font-weight: 700;
+    }
+   }
+   #three_div_img{
+   img{
+    height: 55vh;
+    align-items: left;
+   }
+  }
+   #tick_li {
+    ul {
+      li:before {
+      content: '✓';
+      color: #8ec038;
+    }
+  }
+  ul{
+    // margin-top: 5vh;
+    li{
+      font-size: 20px;
+    list-style: none;
+    text-indent: -2em;
+    margin-left: 60px;
+    margin-bottom: 30px;
+  }
+}
+}
+}
+
+#gray_div{
+  background-color: #f3f5ed;
+  margin-bottom: 30vh;
+  .fira{
+    font-family:'Fira Sans', sans-serif;
+    font-weight: bolder;
+    font-size: 54px;
+  }
+  #bottom_para_one{
+    width: 70vw;
+    // border: 1px solid red;
+    margin: auto;
+    padding-top: 100px;
+    .sacra{
+      font-family: 'Sacramento', cursive;
+      color: #8ec038 ;
+      font-size:50px;
+    }
+    p{
+      font-size: 15px;
+      font-family: 'Open Sans', sans-serif;
+      line-height: 30px;
+    }
+    
+  }
+}
+
+.green_color{
+  color: #a8cf66;
+}
+ 
+.marg{
+  text-align: left;
+}
+.line_height{
+  // color:#8ec038;
+  font-size: 17px;
+  line-height: 32px;
+  
+}
+
+#bottom_para_two{
+  width: 1380px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 310px 310px 310px 310px;
+  column-gap: 30px;
+  margin-bottom: 50px;
+  // border: 1px solid blue;
+  // align-items: center ;
+  // padding-right: 100px;
+margin-top: 10vh;
+  .image{
+    width: 120px;
+    height: 120px;
+    background-color:#8ec038;
+    // padding: 20px;
+    border-radius: 50%;
+    
+}
+
+.image:hover{
+    transform: rotateY(3.142rad);
+    transition-duration: 0.7s;
+    /* background-color: white; */
+}
+.image {
+  img{
+    width: 100px;
+    margin-top: 15%;
+  }
+
+  img:nth-child(1){
+    width: 80px;
+  } 
+}
+}
+.fira{
+  font-family: 'Fira Sans', sans-serif;
+}
+.open{
+  font-family: 'Open Sans', sans-serif;
+}
+
+#Hungry{
+  p{
+    font-family: 'Sacramento', cursive; 
+    font-size: 40px;
+    color: #8ec038;
+    margin-bottom: 10px;
+    padding-top: 50px;
+  }
+  h1{
+    font-family:'Fira Sans', sans-serif;
+    // color: #E53935;
+    margin-top: 1px;
+    font-size: 45px;
+    font-weight: 700;
+  }
+}
+
+#four_button{
+  display: flex; 
+  margin-top: 50px;
+  padding-left: 60px; 
+  margin-bottom: 60px;
+
+   button{
+    width: 220px;
+    padding: 15px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 40px;
+    border-radius: 25px 25px 25px 25px;
+    border:2px solid white;
+    background-color: white;
+  }
+  //  button:focus{
+  //   border: 2px solid #8ec038;
+  //   color: #8ec038;
+    
+  // }
+  button:hover{
+    background-color: #8ec038;
+    border: 1px solid #8ec038;
+    color: black;
+    transition: 1s ease-in-out;
+  }
+}
+
+#Weightloss{
+  display: flex;
+  width: 1000px;
+  margin:10px auto;
+  column-gap: 45px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+  img{
+    border-radius: 20px;
+  }
+  button{
+    width: 200px; 
+    padding: 20px 10px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #E53935;
+    border: 1px solid #E53935;
+    color:white;
+    border-radius: 30px 30px 30px 30px;
+    margin-top: 50px;
+  }
+  button:hover{
+    background-color: black;
+    border: 1px solid black;
+    transition: 1s ease-in-out;
+  }
+}
+
+#main_back{
+  margin-top: 150px;
+  width: 100%;
+  height: 80vh;
+  background: url(https://wallpaperbat.com/img/112576-free-download-healthy-food-wallpaper-26-widescreen-wallpaper.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  // padding-top: 100px;
+  #background_img{
+    h1{
+      margin: auto;
+      // padding-top: 200px;
+      font-weight: 700;
+      font-size: 50px;
+      color: #fff;
+    }
+    button{
+      width: 200px;
+      height:60px;
+      color: white;
+      font-size: 16px;
+      background-color: #E53935;
+      border: 1px solid #E53935;
+      border-radius: 30px;
+      font-family: 'Fira Sans', sans-serif;
+      margin-top: 100px;
+
+  }
+  }
+}
+
+#after_meal{
+    display: flex;
+   column-gap: 100px;
+   padding-top: 100px;
+   padding-left: 100px;
+   text-align: left;
+   background-color: #fff;
+
+   div:nth-child(1){
+    width: 400px;
+    margin-right: 300px;
+  }
+  div:nth-child(1) > button{
+    width: 200px;
+    padding: 20px 10px;
+    border-radius: 30px;
+    background-color: #E53935;
+    border: 1px solid #E53935;
+    color: white;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: 50px;
+
+}
+}
+// #background_img{
+//   background: url(https://images.unsplash.com/photo-1490645935967-10de6ba17061?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=853&q=80);
+
+//   width: 100%;
+//   height: 60vh;
+//   background-size: cover;
+//   background-repeat: no-repeat;
+
+//   #content{
+//     position: relative;
+//     background: transparent;
+
+//     h1{
+//       text-align: center;
+//     }
+//   }
+
+//   #content:before{
+//     content: '';
+//     position: absolute;
+//     background: rgba(0,0,0,.5);
+//     z-index:-1;
+//   }
+// }

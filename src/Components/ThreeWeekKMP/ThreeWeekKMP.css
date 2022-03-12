@@ -1,0 +1,47 @@
+.lossplan_TRKMP{
+    width: 100%;
+    height: 80vh;
+    background-image: url("https://www.fitmeals.co.in/wp-content/uploads/2021/05/IMG_0148-550x515.jpg");
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+ }
+ .box_TRKMP{
+    position: relative;
+    width: 1343px;
+    height: 900px;
+    display: block;
+    background: transparent;
+    transform: translate(-50%, -50%);
+     /* border: 1px solid red; */
+    text-align: center;
+
+} 
+.box_TRAMP:after{
+    content: '4 Weeks kito Plan';
+    font-weight: 700;
+    position:absolute;
+    width: 100%;
+    height: 500px;
+    margin-top: 450px;
+    background: rgba(0, 0, 0, 0.404);
+    /* border: 1px solid red; */
+    z-index: +1;
+    font-size: 80px;
+    padding-top: 190px;
+    align-items: center;
+    color: aliceblue;
+    align-content: center;
+    justify-content: center;
+} 
+
+#last_div{
+    display: grid;
+    width: 1000px;
+    grid-template-columns: 200px 200px 200px 200px;
+    gap: 40px;
+    margin: auto;
+    padding-top: 40px;
+}

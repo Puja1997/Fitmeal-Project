@@ -1,0 +1,142 @@
+.lossplan_OKMP{
+    width: 100%;
+    height: 80vh;
+    background-image: url("https://www.fitmeals.co.in/wp-content/uploads/2021/05/IMG_0148.jpg");
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+ }
+
+ .lossplan_OKMP{
+    position: relative;
+    width: 1343px;
+    height: 900px;
+    display: block;
+    background: transparent;
+    transform: translate(-50%, -50%);
+     /* border: 1px solid red; */
+    text-align: center;
+
+} 
+.lossplan_OKMP:after{
+    content: '1 Week Keto Plan';
+    font-weight: 700;
+    position:absolute;
+    width: 100%;
+    height: 500px;
+    margin-top: 450px;
+    background: rgba(0, 0, 0, 0.404);
+    /* border: 1px solid red; */
+    z-index: +1;
+    font-size: 80px;
+    padding-top: 190px;
+    align-items: center;
+    color: aliceblue;
+    align-content: center;
+    justify-content: center;
+} 
+#last_div{
+    display: grid;
+    width: 1000px;
+    grid-template-columns: 200px 200px 200px 200px;
+    gap: 40px;
+    margin: auto;
+    padding-top: 40px;
+}
+
+#last_div_one > img{
+    width: 20px;
+    margin-right: 10px;
+    background-color: white;
+}
+.one_by_one > button{
+    width: 100px;
+    margin-top: 10px;
+    color: white;
+    background-color: #1a343a;
+    border: 1px solid #1a343a;
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+
+.small_image{
+    display: flex;
+    gap: 10px;
+}
+.small_image > img{
+    width: 20px;
+    height: 20px;
+}
+.marg{
+    margin-top: 0;
+    margin-left: 0;
+   
+}
+.white{
+    color: white;
+}
+.white_marg{
+    margin-left: 50px;
+    margin-top: 0;
+}
+.green{
+    color: #8ec038;
+}
+.fira{
+    font-family: 'Fira Sans', sans-serif;
+}
+.open{
+    font-family: 'Open Sans', sans-serif;
+}
+.sacra{
+    font-family: 'Sacramento', cursive;
+}
+
+#pro_details{
+    width: 1200px;
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-columns: 500px 500px;
+    column-gap: 100px;
+    margin: auto;
+    margin-top: 100px;
+    text-align: left;
+}
+#pro_details > img{
+    width: 500px;
+}
+#pro_details > div{
+    /* border: 1px solid red; */
+    font-size: 16px;
+}
+
+#qty > input{
+    height: 30px;
+    width: 100px;
+}
+#qty > button{
+    height: 36px;
+    width: 200px;
+    margin-left: 10px;
+    font-weight: bolder;
+    border-radius: 50px;
+    padding: 0 30px;
+    height: 50px;
+    background-color: #E53935;
+    border: 1px solid #E53935;
+    color: white;
+    margin-bottom: 50px;
+}
+.discription{
+    margin: auto;
+    width: 70%;
+    padding: 20px;
+   margin-bottom: 100px;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.2);
+}
+.dis1{
+    list-style-type: disc;
+}

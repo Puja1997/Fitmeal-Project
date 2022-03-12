@@ -1,0 +1,119 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background: #fff;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 1000px;
+    height: 200px;
+    background: #fff;
+    margin: 100px auto 0;
+    word-break: break-all;
+    border: 1px solid rgba(0, 0, 0, 0.274);
+  }
+  
+  .bloc-tabs {
+    display: flex;
+    width: 900px;
+    gap: 10px;
+    justify-content: space-between;
+  }
+  .tabs {
+    padding: 15px;
+    padding-bottom: 20px;
+    text-align: center;
+    width: 100%;
+    height: 20%;
+    background: rgba(128, 128, 128, 0.075);
+    cursor: pointer;
+    /* border-bottom: 1px solid rgba(0, 0, 0, 0.274); */
+    box-sizing: content-box;
+    position: relative;
+    outline: none;
+    /* border: 1px solid olive; */
+    
+  }
+  .tabs:not(:last-child){
+    border-right: 1px solid rgba(0, 0, 0, 0.274);
+  }
+  
+  .active-tabs  {
+    background: white;
+    border: 3px solid #8ec038;
+    color:#8ec038 ;
+  }
+  
+  .active-tabs::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: calc(100% + 2px);
+    height: 5px;
+    background: #8ec038;
+    border: 1px solid #8ec038;
+  }
+   
+  
+  button {
+    border: none;
+    width: 200px;
+    border-radius: 20px;
+    
+  }
+  button:hover{
+   color: #8ec038;
+  }
+  .content-tabs {
+    flex-grow : 1;
+    
+  }
+  .content {
+    background: white;
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    display: none;
+  }
+  .content h2 {
+    padding: 0px 0 5px 0px;
+  }
+  .content hr {
+    width: 100px;
+    height: 2px;
+    background: #222;
+    margin-bottom: 5px;
+  }
+  .content p {
+    width: 100%;
+    height: 100%;
+  }
+  .active-content {
+    display: block;
+  }
+
+  .New_div{
+      display: grid;
+      grid-template-columns: 45% 45%;
+      gap:5%;
+      margin-top: 100px;
+      margin-left: 100px;
+
+  }
+  .images > img{
+      width: 96%;
+      border-radius: 5%;
+  }
+  .green_hover:hover{
+    color:#8ec038 ;
+  }
